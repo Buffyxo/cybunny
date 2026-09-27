@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cybunny</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+</head>
+
+<body>
+
+    <main class="hero">
+
+        <div
+            id="pixel-word"
+            class="pixel-word"
+            aria-label="Cybunny">
+        </div>
+
+        <p class="role">
+            SOFTWARE DEVELOPER
+        </p>
+
+        <div class="divider"></div>
+
+        <p class="status">
+            PORTFOLIO // ONLINE
+        </p>
+
+    </main>
+
+    <script
+        src="{{ url_for('static', filename='animation.js') }}">
+    </script>
+
+</body>
+</html>
