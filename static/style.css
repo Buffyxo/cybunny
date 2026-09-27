@@ -98,3 +98,13 @@ body {
         opacity: 0.8;
     }
 }
+
+.system-info {
+    margin-top: 30px;
+
+    font-size: 10px;
+    letter-spacing: 3px;
+
+    color: #9cff00;
+    opacity: 0.5;
+}
